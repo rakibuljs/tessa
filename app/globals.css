@@ -1,26 +1,62 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap");
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Global Styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  background-color: #fbfafb;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+  margin: auto;
+}
+
+/* Font Utility Classes */
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-sc-light {
+  font-family: "Cormorant SC", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Swiper Custom Styles */
+.swiper-button-prev:after {
+  padding: 9px;
+  background: rgb(187, 160, 133);
+  position: relative;
+  font-size: 17px !important;
+  color: white;
+  bottom: 28px;
+}
+
+.swiper-button-prev {
+  position: relative !important;
+  left: 46% !important;
+}
+
+.swiper-button-next {
+  position: relative !important;
+  left: 46% !important;
+}
+
+.swiper-button-next:after {
+  padding: 9px;
+  background: rgb(187, 160, 133);
+  position: relative;
+  font-size: 16px !important;
+  color: white;
+  bottom: 50px;
+  left: 32px;
 }
