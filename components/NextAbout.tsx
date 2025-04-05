@@ -1,6 +1,7 @@
 import me4 from "@/public/images/me4.png";
 import me5 from "@/public/images/me5.png";
 import Image from "next/image";
+import Link from "next/link";
 const NextAbout = () => {
   return (
     <section className="container mx-auto px-3 bg-white md:px-10 pb-40 flex flex-col md:flex-row items-center gap-10">
@@ -21,9 +22,14 @@ const NextAbout = () => {
           together. Let&rsquo;s work together to make your dream wedding an
           everlasting legacy.
         </p>
-        <button className=" mt-2 text-[28px] bg-[#E9E0D8] hover:text-[#bba085] py-4 px-10">
-          View Services
-        </button>
+        <div className="mt-12">
+          <Link
+            href="service"
+            className="mt-2 text-[28px] bg-[#E9E0D8] hover:text-[#bba085] py-4 px-10"
+          >
+            View Services
+          </Link>
+        </div>
       </div>
 
       {/* Right Image Section */}
