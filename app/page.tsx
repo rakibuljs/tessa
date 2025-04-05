@@ -7,6 +7,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Service from "@/components/Services";
 import ServiceTwo from "@/components/ServiceTwo";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   useEffect(() => {
@@ -22,6 +23,7 @@ export default function Home() {
       <About />
       <Service />
       <ServiceTwo />
+      <Portfolio />
     </>
   );
 }
