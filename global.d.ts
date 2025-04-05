@@ -1,9 +1,11 @@
 // global.d.ts
 declare module "aos" {
-  const AOS: {
-    init: (options?: Record<string, unknown>) => void;
+  interface AOS {
+    init: (options?: object) => void;
     refresh: () => void;
     refreshHard: () => void;
-  };
+  }
+
+  const AOS: AOS;
   export = AOS;
 }
