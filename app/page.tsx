@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Service from "@/components/Services";
+import ServiceTwo from "@/components/ServiceTwo";
 
 export default function Home() {
   useEffect(() => {
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero />
       <About />
       <Service />
+      <ServiceTwo />
     </>
   );
 }
