@@ -39,7 +39,7 @@ const BlogPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          href={"/accessorizing-your-wedding-look-from-veils-to-shoes"}
+          href="/blog/accessorizing-your-wedding-look-from-veils-to-shoes"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center  items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
@@ -76,7 +76,7 @@ const BlogPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          href={"/the-benefits-of-a-second-shooter-at-your-wedding-copy"}
+          href="/blog/the-benefits-of-a-second-shooter-at-your-wedding-copy"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center  items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
@@ -113,7 +113,7 @@ const BlogPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          href={"/choosing-the-perfect-wedding-dress-a-brides-guide"}
+          href="/blog/choosing-the-perfect-wedding-dress-a-brides-guide"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center  items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
@@ -150,7 +150,7 @@ const BlogPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          href={"/the-benefits-of-a-second-shooter-at-your-wedding"}
+          href="/blog/the-benefits-of-a-second-shooter-at-your-wedding"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center  items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
