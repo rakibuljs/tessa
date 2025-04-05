@@ -9,6 +9,7 @@ import Service from "@/components/Services";
 import ServiceTwo from "@/components/ServiceTwo";
 import Portfolio from "@/components/Portfolio";
 import ClientSection from "@/components/ClientSection";
+import Counter from "@/components/Counter";
 
 export default function Home() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function Home() {
       <ServiceTwo />
       <Portfolio />
       <ClientSection />
+      <Counter />
     </>
   );
 }
