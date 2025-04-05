@@ -1,4 +1,8 @@
 "use client";
+import Image from "next/image";
+import aboutImage from "@/public/images/abou.png";
+import cot from "@/public/images/kot.png";
+import flowers from "@/public/images/flowers.png";
 import Link from "next/link";
 const About = () => {
   return (
@@ -26,17 +30,13 @@ const About = () => {
       <div className="bg-[#FBFAFB] mt-16 grid lg:grid-cols-2 gap-10">
         {/* Left Image */}
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-          <img
-            src="/images/abou.png"
-            alt="about"
-            className="w-full lg:h-[770px]"
-          />
+          <Image src={aboutImage} alt="about" className="w-full lg:h-[770px]" />
         </div>
 
         {/* Right Content */}
         <div>
-          <img
-            src="/images/kot.png"
+          <Image
+            src={cot}
             alt="about image"
             className="justify-center mx-auto flex items-center pt-7 text-center"
           />
@@ -49,7 +49,7 @@ const About = () => {
               Hello, My Name is Tessa
             </h1>
             <p className="text-2xl md:text-[29px]">
-              I'm a passionate wedding photographer based in beautiful
+              I&apos;m a passionate wedding photographer based in beautiful
               California. With over a decade of experience, I have dedicated my
               career to capturing the unique love stories of couples from all
               walks of life. My journey in photography began in college, where I
@@ -57,8 +57,8 @@ const About = () => {
               earning my degree in Fine Arts, I honed my skills working with
               some of the top photographers in the industry.
             </p>
-            <img
-              src="/images/flowers.png"
+            <Image
+              src={flowers}
               alt="flowers"
               className="justify-center mx-auto flex items-center pt-7 text-center"
             />
