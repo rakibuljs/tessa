@@ -3,7 +3,6 @@
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 
