@@ -8,6 +8,7 @@ import About from "@/components/About";
 import Service from "@/components/Services";
 import ServiceTwo from "@/components/ServiceTwo";
 import Portfolio from "@/components/Portfolio";
+import ClientSection from "@/components/ClientSection";
 
 export default function Home() {
   useEffect(() => {
@@ -24,6 +25,7 @@ export default function Home() {
       <Service />
       <ServiceTwo />
       <Portfolio />
+      <ClientSection />
     </>
   );
 }
