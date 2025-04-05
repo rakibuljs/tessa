@@ -44,7 +44,7 @@ const PortfolioPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-duration="3000"
-          href={"/fiona-mikael"}
+          href="/portfolio/fiona-mikael"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
@@ -64,7 +64,7 @@ const PortfolioPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          href={"/stacy"}
+          href="/portfolio/stacy"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
@@ -84,7 +84,7 @@ const PortfolioPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-duration="3000"
-          href={"/john-miranda"}
+          href="/portfolio/john-miranda"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
@@ -104,7 +104,7 @@ const PortfolioPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          href={"/nathan-helen"}
+          href="/portfolio/nathan-helen"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
@@ -121,7 +121,11 @@ const PortfolioPage = () => {
           </div>
         </Link>
 
-        <Link data-aos="fade-up" data-aos-duration="3000" href={"/elena"}>
+        <Link
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          href="/portfolio/elena"
+        >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
               src={port5}
@@ -140,7 +144,7 @@ const PortfolioPage = () => {
         <Link
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          href={"/maria-carlo"}
+          href="/portfolio/maria-carlo"
         >
           <div className="bg-[#FBFAFB] hover:shadow-sm text-center items-center border border-gray-300 p-3 justify-center transition-transform duration-200 ease-linear transform group">
             <Image
