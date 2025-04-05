@@ -19,3 +19,31 @@ export const slides = [
     name: "SARAH & JOHNATHAN",
   },
 ];
+export const faqs = [
+  {
+    question: "DO YOU TRAVEL FOR EVENTS?",
+    answer:
+      "Yes, I will be happy to travel anywhere in the states to capture your special day. Travel fees may apply.",
+  },
+  {
+    question: "HOW DO I SECURE A BOOKING?",
+    answer:
+      "To secure your booking, a signed contract and a 25% non-refundable deposit is required. The remaining balance due 2 weeks before the event.",
+  },
+  {
+    question: "HOW FAR IN ADVANCE SHOULD I BOOK YOU?",
+    answer:
+      "It's best to book as soon as you have your date and venue confirmed. Popular dates can fill up quickly, sometimes a year or more in advance.",
+  },
+  {
+    question:
+      "WHAT HAPPENS IF YOU ARE UNABLE TO ATTEND ON THE DAY OF THE EVENT?",
+    answer:
+      "In the unlikely event that I cannot attend, I have a network of professional photographers I can call upon. I will ensure a qualified replacement is found.",
+  },
+  {
+    question: "HOW LONG WILL IT TAKE TO RECEIVE THE PHOTOS?",
+    answer:
+      "You will receive the fully edited photos within 6 weeks after your wedding or engagement. For portrait sessions, 1 week is the wait period.",
+  },
+];
