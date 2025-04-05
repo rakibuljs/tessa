@@ -18,7 +18,7 @@ const NextAbout = () => {
           From the first glance to the final dance, my goal is to encapsulate
           the essence of your love story in every shot, ensuring that your
           wedding album is a beautiful reflection of your unique journey
-          together. Let’s work together to make your dream wedding an
+          together. Let&rsquo;s work together to make your dream wedding an
           everlasting legacy.
         </p>
         <button className=" mt-2 text-[28px] bg-[#E9E0D8] hover:text-[#bba085] py-4 px-10">

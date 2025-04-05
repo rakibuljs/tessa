@@ -63,14 +63,14 @@ const AboutPage = () => {
                 My approach to wedding photography is all about capturing
                 authentic, candid moments with an artistic touch. Making people
                 feel comfortable in front of the camera is one of my strengths,
-                and it's something my clients appreciate, often returning with
-                glowing testimonials.
+                and it&rsquo;s something my clients appreciate, often returning
+                with glowing testimonials.
               </p>
               <p className="text-2xl md:text-[29px] pt-4 ">
                 My work has been featured in various bridal magazines and blogs,
-                which is always an honor. When I'm not working, I love exploring
-                the Blue Ridge Mountains, attending local art festivals, and
-                spending quality time with my rescue dog, Max.
+                which is always an honor. When I&rsquo;m not working, I love
+                exploring the Blue Ridge Mountains, attending local art
+                festivals, and spending quality time with my rescue dog, Max.
               </p>
 
               <p className="text-2xl md:text-[29px] pt-4 ">
@@ -137,8 +137,8 @@ const AboutPage = () => {
           <p className="mt-4 text-xl md:text-[28px] leading-relaxed">
             I am blessed with a loving partner and two adorable kids who fill
             our home with joy and laughter. Our family adventures and shared
-            moments continuously remind me of the importance of capturing life’s
-            fleeting yet precious moments.
+            moments continuously remind me of the importance of capturing
+            life&rsquo;s fleeting yet precious moments.
           </p>
         </div>
       </div>
@@ -207,9 +207,9 @@ const AboutPage = () => {
 
           <p className="mt-4 text-xl md:text-[28px] leading-relaxed">
             My love for cooking and experimenting with new recipes keeps my
-            creative juices flowing even when I’m off duty. This passion for
-            creativity and exploration extends into my photography, where I
-            strive to capture the essence of each couple’s big day.
+            creative juices flowing even when I&rsquo;m off duty. This passion
+            for creativity and exploration extends into my photography, where I
+            strive to capture the essence of each couple&rsquo;s big day.
           </p>
         </div>
       </div>
@@ -230,8 +230,9 @@ const AboutPage = () => {
             data-aos-anchor-placement="top-bottom"
             className="mt-2 text-sm text-[41px] font-light"
           >
-            "I guarantee stunning, high-quality wedding photos that will capture
-            every special moment on your big day, or your money back."
+            &quot;I guarantee stunning, high-quality wedding photos that will
+            capture every special moment on your big day, or your money
+            back.&quot;
           </p>
         </div>
       </div>
