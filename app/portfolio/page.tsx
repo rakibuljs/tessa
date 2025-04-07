@@ -12,6 +12,7 @@ import Link from "next/link";
 import Image from "next/image";
 import PortfolioAnotherSection from "@/components/PortfolioAnotherSection";
 import { Great_Vibes } from "next/font/google";
+
 const greatVibes = Great_Vibes({
   subsets: ["latin"],
   weight: "400", // Change to available weight (400)

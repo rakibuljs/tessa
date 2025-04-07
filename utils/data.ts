@@ -1,7 +1,12 @@
 import sliderImage from "@/public/images/sliderImage.png";
 import sliderImage2 from "@/public/images/sliderImage2.png";
 import sliderImage3 from "@/public/images/sliderImage3.png";
-
+import card1 from "@/public/images/card1.png";
+import cardFlower1 from "@/public/images/cardFlower1.png";
+import cardFlower2 from "@/public/images/flowers2.png";
+import cardFlower3 from "@/public/images/flower3.png";
+import ser1 from "@/public/images/ser1.png";
+import ser2 from "@/public/images/ser2.png";
 export const slides = [
   {
     image: sliderImage,
@@ -45,5 +50,47 @@ export const faqs = [
     question: "HOW LONG WILL IT TAKE TO RECEIVE THE PHOTOS?",
     answer:
       "You will receive the fully edited photos within 6 weeks after your wedding or engagement. For portrait sessions, 1 week is the wait period.",
+  },
+];
+export const servicesCard = [
+  {
+    id: "weddingservicesone",
+    title: "Wedding",
+    image: card1,
+    flowers: cardFlower1,
+  },
+  {
+    id: "servicespotraitone",
+    title: "Portrait",
+    image: ser1,
+    flowers: cardFlower2,
+  },
+  {
+    id: "Engagementservicespotraitone",
+    title: "Engagement",
+    image: ser2,
+    flowers: cardFlower3,
+  },
+];
+export const Counter = [
+  {
+    id: "count1",
+    title: "Years Experience",
+    count: "12",
+  },
+  {
+    id: "count2",
+    title: "Photos Delivered",
+    count: "10K",
+  },
+  {
+    id: "count3",
+    title: "Years Experience",
+    count: "12",
+  },
+  {
+    id: "count4",
+    title: "Years Experience",
+    count: "12",
   },
 ];

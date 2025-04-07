@@ -1,5 +1,6 @@
 import Image from "next/image";
 import port10 from "@/public/images/port10.png";
+import Link from "next/link";
 
 const PortfolioNextSection = () => {
   return (
@@ -19,9 +20,9 @@ const PortfolioNextSection = () => {
           wedding memories are preserved with artistic flair and heartfelt
           authenticity
         </p>
-        <button className=" mb-12 flex mt-6 text-[28px] bg-[#E9E0D8] hover:text-[#bba085] py-4 px-10">
-          Enquire Now
-        </button>
+        <div className="mb-12 flex mt-6 text-[28px] bg-[#E9E0D8] hover:text-[#bba085] py-4 px-10 w-fit">
+          <Link href="/contact">Enquire Now</Link>
+        </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="3000">
         <Image src={port10} alt="" className=" hidden lg:block h-[536px]" />

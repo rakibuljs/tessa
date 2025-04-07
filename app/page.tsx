@@ -11,7 +11,6 @@ import Portfolio from "@/components/Portfolio";
 import ClientSection from "@/components/ClientSection";
 import Counter from "@/components/Counter";
 import Contact from "@/components/Contact";
-
 export default function Home() {
   useEffect(() => {
     Aos.init({
