@@ -72,7 +72,7 @@ export const servicesCard = [
     flowers: cardFlower3,
   },
 ];
-export const Counter = [
+export const counters = [
   {
     id: "count1",
     title: "Years Experience",
@@ -85,12 +85,12 @@ export const Counter = [
   },
   {
     id: "count3",
-    title: "Years Experience",
-    count: "12",
+    title: "Events Captured",
+    count: "300",
   },
   {
     id: "count4",
-    title: "Years Experience",
-    count: "12",
+    title: "Awards Received",
+    count: "6",
   },
 ];
